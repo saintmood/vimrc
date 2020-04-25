@@ -15,6 +15,7 @@ Plugin 'mitsuhiko/vim-python-combined'
 Plugin 'morhetz/gruvbox'
 Plugin 'posva/vim-vue'
 Plugin 'psf/black'
+Plugin 'sainnhe/edge'
 " Vundle Plugins section ends
 call vundle#end()
 filetype on
@@ -30,7 +31,7 @@ set expandtab
 set shiftwidth=4
 set cursorline
 set showmatch
-colorscheme gruvbox
+colorscheme edge
 set ls=2
 set incsearch
 set hlsearch
@@ -52,9 +53,6 @@ let g:tagbar_autofocus = 0
 map <F3> :NERDTreeToggle<CR>
 " Python specific settings
 let python_highlight_all = 1
-let g:pymode_rope = 0
-let g:pymode_rope_completion = 0
-let g:pymode_rope_complete_on_dot = 0
 let g:pymode_syntax = 1
 let g:pymode_syntax_all = 1
 let g:pymode_syntax_indent_errors = g:pymode_syntax_all
